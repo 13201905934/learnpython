@@ -13,7 +13,6 @@ class TenNumber:
 
 
 num = TenNumber()
-numIter = iter(num)
-for i in numIter:
+# numIter = iter(num)
+for i in iter(num):
     print(i)
-
