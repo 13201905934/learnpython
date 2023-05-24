@@ -6,6 +6,7 @@ js = '{"name": "linna", "age": 18, "sex": "man"}'
 # 将js转换成字典
 resjs = json.loads(js)
 print(resjs)
+print(type(resjs))  # 可以看到已经转成字典
 print(resjs['name'])  # linna
 print(js)
 print(type(js))
@@ -26,4 +27,3 @@ birthday = str(d.date())
 dog['birth'] = birthday
 # 将字典转换成json打印输出
 print(json.dumps(dog))
-

@@ -16,3 +16,7 @@ print(remove_dup([3, 3, 5, 6, 6, 7, 7]))
 cat = ['cat1', 'cat2', 'cat3', 'cat1']
 cats = list(dict.fromkeys(cat))
 print(cats)  # ['cat1', 'cat2', 'cat3']
+
+# 5.24
+a = ('a1', 'a1', 'a2')
+print(a)

@@ -11,3 +11,8 @@ print(dog1)  # {'age': None, 'weight': None, 'price': None}
 m = ('age', 'sex')
 m1 = dict.fromkeys(m, 0)
 print(m1)  # {'age': 0, 'sex': 0}
+
+# 5.24号练习
+k = ('age', 'sex', 'price')
+kk = dict.fromkeys(k, 0)
+print(kk)  # {'age': 0, 'sex': 0, 'price': 0}

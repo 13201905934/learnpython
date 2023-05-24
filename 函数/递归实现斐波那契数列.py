@@ -11,3 +11,11 @@ if numbers < 0:
 else:
     for i in range(numbers):
         print(fibnacci(i))
+
+
+# 5.24号练习
+def fibnaccis(i):
+    if i <= 0:
+        return i
+    else:
+        return fibnaccis(i - 1) + fibnaccis(i - 2)

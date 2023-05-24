@@ -5,5 +5,14 @@ dog = {
     'age': 13
 }
 
-del dog
+#del dog
 print(dog)
+
+# 5.24
+
+friend = {
+    'name': 'zhangyiwen',
+    'age': 26,
+    'sex': 'female'
+}
+print(friend)

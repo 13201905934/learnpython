@@ -11,3 +11,10 @@ while True:
     inChoice = input()
     if 'M' == inChoice:
         print('it is a good choice')
+
+
+# 5.24 pass练习
+
+def account(i):
+    if i == 'happy':
+        pass

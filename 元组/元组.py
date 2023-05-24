@@ -42,3 +42,15 @@ print(digitsOne)  # (8, 8, 8, 8, 8)
 # 利用上述方法初始化字符串元组
 friendsOne = 5 * ('girl',)
 print(friendsOne)  # ('girl', 'girl', 'girl', 'girl', 'girl')
+
+# 5.24元组复习
+happy = ('no', 'happy', 'thing')
+for i in happy:
+    if i == 'happy':
+        print('do you have happy thing?')
+# 索引使用
+print(happy.index('no'))
+
+# 快捷初始化索引
+truples = 3 * (2 ** 3,)
+print(truples)  # (8, 8, 8)
